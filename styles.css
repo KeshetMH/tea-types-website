@@ -1,0 +1,45 @@
+.topbar {
+    background-color: rgb(146, 191, 113);
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: fantasy;
+    border-radius: 7px;
+    padding: 0px 8px;
+}
+
+body {
+    background-color: beige;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin: 0.4em;
+}
+
+.background {
+    background-image: url("./images/greentealeaf.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: monospace;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    height: 80vh;
+    text-align: 
+
+}
+
+.background a {
+    background-color: rgb(18, 135, 96);
+    border-color: black;
+    text-decoration: none;
+    color: white;
+    text
+   
+}
