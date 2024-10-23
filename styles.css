@@ -2,15 +2,14 @@
     background-color: rgb(146, 191, 113);
     display: flex;
     align-items: center; 
-    flex-direction: row;
     justify-content: space-between;
     font-family: fantasy;
-    border-radius: 7px;
     padding: 0px 8px;
 }
 
 body {
     background-color: beige;
+    margin: 0px;
 }
 
 .links a {
@@ -27,19 +26,52 @@ body {
     background-size: cover;
     font-family: monospace;
     font-size: xx-large;
-    text-align: center;
     color: white;
-    margin: 0px;
     height: 80vh;
-    text-align: 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+    
 }
 
 .background a {
     background-color: rgb(18, 135, 96);
+    background-size: 3em;
     border-color: black;
     text-decoration: none;
     color: white;
-    text
-   
+    margin: 45px;
+    border-radius: 7px;
+
+}
+
+.h1 {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 21px;
+    font-family: math;
+    text-align: left;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.classGalleryPhotoSize {
+    height: 450px;
+    width: 400px;
+}
+
+.fullscreen iframe {
+    width: 100%;
 }
