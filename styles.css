@@ -94,3 +94,11 @@ img:hover {
     margin-bottom: 10px;
     font-size: 19px;
 }
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vh;
+    width: 100%;
+    margin-top: 30px;
+}
