@@ -1,8 +1,10 @@
 .topbar {
     background-color: rgb(146, 191, 113);
+    background-size: 0 20px;
     display: flex;
     align-items: center; 
     justify-content: space-between;
+    height: 70px;
     font-family: fantasy;
     padding: 0px 8px;
 }
@@ -14,7 +16,7 @@ body {
 }
 
 
-.links a {
+.topbar a {
     text-decoration: none;
     color: black;
     font-size: 1.2em;
@@ -49,10 +51,16 @@ body {
 }
 
 .h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: cursive;
     text-align: center;
     
+}
+
+h2 {
+    font-family: cursive;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 p {
@@ -87,11 +95,11 @@ img:hover {
 }
 
 .topbottom {
-    text-decoration: none;
     color: #7B3289;
     font-family: math;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 19px;
+    text-align: center;
 }
 
 .grid2 {
@@ -105,7 +113,7 @@ img:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5vh;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 footer {
@@ -126,4 +134,25 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+footer a {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* for screen less than 800px */
+@media all and (max-width: 800px) {
+    .grid, .grid2, .grid3 {
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+}
+
+/* for screen less than 460px */
+@media all and (max-width: 460px) {
+    .grid, .grid2, .grid3 {
+        grid-template-columns: 1fr;
+    }
 }
