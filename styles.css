@@ -10,7 +10,9 @@
 body {
     background-color: beige;
     margin: 0px;
+
 }
+
 
 .links a {
     text-decoration: none;
@@ -55,7 +57,7 @@ body {
 
 p {
     font-size: 21px;
-    font-family: math;
+    font-family: cursive;
     text-align: left;
 }
 
@@ -63,15 +65,32 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5vh;
-    display: flex;
-    justify-content: center;
-}
-
-.classGalleryPhotoSize {
-    height: 450px;
-    width: 400px;
-}
-
-.fullscreen iframe {
     width: 100%;
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+#fullscreen {
+    width: 100%;
+    margin-top: 30px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.shortscreen {
+    margin: 2%;
+   text-align: center;
+}
+
+.topbottom {
+    text-decoration: none;
+    color: #7B3289;
+    font-family: math;
+    margin-bottom: 10px;
+    font-size: 19px;
 }
